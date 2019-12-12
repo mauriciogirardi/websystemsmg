@@ -1,0 +1,209 @@
+/* BANNER BG */
+.nav-link{
+    margin: 0 15px;
+}
+
+.box-fix{
+    position: relative;
+    top: 55px;
+  }
+
+.bg-top {
+    width: 100%;
+    min-height: 500px;
+    background: url('../image/bg.jpg');
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    /* top: 85px; */
+    background-attachment: fixed;
+}
+
+.overlay {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(100, 100, 100, 0.356);
+}
+
+.costom__zindex{
+    position: relative;
+    z-index: 2;
+}
+
+.texto__bg {
+    color: white;   
+    padding: 150px 0;
+}
+.texto__bg  h1{
+    font-size: 42px;
+}
+.texto__bg  p{
+    font-size: 17px;
+    line-height: 30px;
+    
+}
+
+section.bg-top .col-md-6{
+    padding-right: 30px !important;
+}
+
+/* CHAMADA */
+section.chamada {
+    background: #343a40;
+    padding: 5px 0;
+    color: white;
+}
+ 
+section.chamada h2{
+    font-size: 45px;
+}
+
+/* SOBRE */
+section.sobre {
+    padding: 50px 0;
+}
+
+.custom__borda {
+
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 2px 2px 20px 1px rgba(39, 39, 39, 0.274);
+}
+
+.custom__title {
+    position: relative;
+}
+.custom__title h2{
+    color: #888;
+    font-size: 25px;
+}
+.custom__title div{
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background: #ff6a00;
+    width: 240px;
+    height: 2px;
+}
+
+/* DIFERENCIAIS */
+section.diferenciais {
+    padding: 60px 0;
+}
+section.diferenciais h1{
+    color: #646464;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+section.diferenciais h2{
+    color: #fa7d23;
+    font-size: 55px;
+}
+
+section.diferenciais p{
+    color: #646464;
+}
+
+/* CONVITE */
+section.convite {
+    background: #fa7d23;
+    padding: 15px 0 0 0;
+}
+
+section.convite h2{
+   color: white;
+   font-size: 27px;
+}
+
+section.convite input[type=email]{
+    width: calc(100% - 100px);
+    padding-left: 8px;
+    outline: none !important;
+    height: 40px;
+}
+
+section.convite button{
+    height: 40px;
+    vertical-align: top;
+}
+
+/* CONTATO */
+section.contato {
+    padding: 40px 0;
+    background: #333;
+}
+
+section.contato h1{
+    color: white;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+section.contato .btnForm {
+    background: #ff6a00;
+    border: 0;
+    border-radius: 40px;
+    outline: none !important;
+    color: white;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    margin:  20px 0 0 15px;
+}
+
+label{
+    color: white !important;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px 0;
+    background: #646464;
+    color: white;
+}
+
+footer h2 {
+    font-size: 25px;
+}
+
+footer h3 {
+    font-size: 35px;
+    color: #4267b2;
+}
+
+.sub-footer{
+    background: #3f3f3f;
+    padding: 10px 0 0 0;
+}
+
+.sub-footer p {
+    color: white;
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .texto__bg h2{
+        margin-top: 30px;
+    }
+    section.convite h2{
+        margin: 0 0 20px 0;
+    }
+    .sub-footer{
+        background: #3f3f3f;
+        padding: 10px 0 10px 0;
+    }
+    footer h2 {
+        margin-top: 25px;
+    }
+    footer {
+        padding: 0 0 25px 0;
+    }
+   
+}
